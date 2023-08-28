@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,18 @@
 </head>
 <body>
     <header></header>
-    <main></main>
+    <main class="max-w-screen-xl mx-auto mt-8">
+        <section class="bg-gray-100 p-4 m-4">
+            <input id="search-field" type="text" placeholder="Search..." class="input input-bordered w-full max-w-xs" />
+            <button onclick="handleSearch()" class="btn btn-accent">Search</button>
+        </section>
+        <!-- search result  -->
+        <section>
+            <div id="phone-container" class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" >
+               
+            </div>
+        </section>
+    </main>
     <footer></footer>
 
     <!-- script  -->
